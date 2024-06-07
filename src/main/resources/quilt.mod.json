@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "${group}",
-		"id": "example_mod",
+		"group": "net.zaills",
+		"id": "neonwhite",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Neon White",
+			"description": "What if Neon White was in minecraft",
 			"contributors": {
-				"Your name here": "Owner"
+				"Zaills": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
+				"homepage": "https://github.com/Zaills",
+				"issues": "https://github.com/Zaills/Neon-White-Mod/issues",
 				"sources": "https://github.com/QuiltMC/quilt-template-mod"
 			},
 			"icon": "assets/example_mod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "net.zaills.neonwhite.NeonWhite"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "neonwhite.mixins.json"
 }
